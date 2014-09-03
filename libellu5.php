@@ -11,7 +11,7 @@
 	/*------------------------------------------------------------------------------*/
 	
 	// Set up URI changes. Also note, some work is done in the .htaccess file to redirect every request to this page.
-	$uri = ltrim($_SERVER['REQUEST_URI'],'/billboard-builder/');	// Fix URI
+	$uri = ltrim($_SERVER['REQUEST_URI'],'/libellu5/');	// Fix URI
 	$params = explode('/',$uri);						// Create an array from the URI
 	$thisPage = strtolower(array_shift($params));			// Get the page name, in lowercase
 	if ($thisPage == '') $thisPage = 'home';					// Turn a blank into a homepage case
