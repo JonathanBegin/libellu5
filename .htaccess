@@ -1,0 +1,13 @@
+php_flag display_errors on
+
+DirectoryIndex libellu5.php
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule . /libellu5.php
+</IfModule>

@@ -1,0 +1,42 @@
+body {
+
+	background-color: #F39F78;
+	background-image: url(../img/yel.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	text-align: center;
+
+}
+
+.main {
+
+	margin-top: 10em;
+	
+	text-shadow: 2px 2px 0px #fff;
+
+}
+
+sup {
+
+	font-size: 0.6em;
+
+}
+
+
+@media screen and (min-width: 641px) {
+
+	h1 {
+
+		font-size: 7em;
+
+	}
+
+	h2 {
+
+		font-size: 4em;
+
+	}
+	
+}
